@@ -6,7 +6,7 @@ and design process of a website. What a reset stylesheet does is it sets everyth
 CSS code. Then you will want to put your own CSS code starting at the end of the CSS Reset Sheet<br>
 <br>
 <br>
-<strong>References</strong>
+<strong>References</strong><br>
 I did not come up with the reset code, I got this off a free online source, I may one day come out, <br>
 with my own version. So I would like to give a shout out to Richard Clark for sharing his code! <br>
 <br>
