@@ -161,6 +161,11 @@ header .header-cases{
   display: none;
 }
 
+
+/*desktop version*/
+@@media only screen and (min-width: 1000px) {
+
+}
 /*INDEX*/
 
 .index-banner {
@@ -221,3 +226,50 @@ header .header-cases{
 }
 
 /*Footer*/
+footer{
+  width: calc(100% - 80px);
+  padding: 40px 40px ;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+
+footer ul{
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+
+
+
+footer ul li{
+  display: block;
+  list-style: none; /*remove bullet points*/
+}
+
+
+footer ul li a{
+  font-family: Catamaran;
+  font-size: 24px;
+  color: #fff;
+  line-height: 40px;
+}
+
+
+.footer-links-cases{
+  display: none;
+}
+
+
+.footer-social{
+  width: 50px;
+  float: right;
+
+}
+
+.footer-social img{
+  width: 100%;
+  margin-bottom: 10px;
+
+}
