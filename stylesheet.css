@@ -163,7 +163,7 @@ header .header-cases{
 
 
 /*desktop version*/
-@@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) {
 
 }
 /*INDEX*/
@@ -187,7 +187,7 @@ header .header-cases{
 
 .index-banner h2{
   font-family: Catamaran;
-  font-size: 60px;
+  font-size: 40px;
   color: #ffffff;
   line-height: 70px;
   text-align: center;
