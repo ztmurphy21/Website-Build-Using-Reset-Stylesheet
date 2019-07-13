@@ -153,6 +153,7 @@ header nav ul li a{
   font-family: Catamaran;
   font-size: 16px;
   color: #111;
+  text-transform: uppercase;
 
 }
 
@@ -164,7 +165,38 @@ header .header-cases{
 
 /*desktop version*/
 @media only screen and (min-width: 1000px) {
+  header .header-brand{
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0px 20px 0px 40px;
+    border-right: 3px solid #111;
+    float: left;
+}
 
+/*navigation*/
+header nav ul{
+  margin: 20px 0px 0px 20px;
+  float: left;
+}
+
+header nav ul li a{
+  line-height: 60px;
+
+}
+header .header-cases{
+  display: block;
+  font-family: Catamaran;
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+  line-height: 38px;
+  border: 1px solid #111;
+  float: right;
+  margin-right: 40px;
+  padding: 0px 20px;
+  margin-top: 30px;
+}
 }
 /*INDEX*/
 
