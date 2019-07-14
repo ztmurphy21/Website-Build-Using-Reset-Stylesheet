@@ -226,7 +226,7 @@ header .header-cases{
   font-weight: 900px;
   text-shadow: 2px 2px 8px #808080;
 }
-
+/*bottom text of banner*/
 .index-banner h1{
   font-family: Cormorant Garamond;
   font-size: 28px;
@@ -253,9 +253,54 @@ header .header-cases{
   text-align: center;
   line-height: 100px;
   text-transform: uppercase;
+}
+
+
+/*desktop version of banner*/
+@media only screen and (min-width: 1000px) {
+  .wrapper{
+    width: 1000px;
+    margin: 0px auto;
+  }
+  .index-banner {
+    width: 100%;
+    height: 425px; /*height of device*/
+  }
+
+  .index-banner h1{
+    display: block;;
+    width: 580px;
+    margin: 0 auto; /*center*/
+  }
+
+  .index-links{
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .index-links div{
+    margin: 20px 10px 0px;
+    height: 250px;
+    background-color: #f2f2f2;
+    float: left;
+  }
+
+  .index-boxlink-square{
+  width: calc(25% - 20px) !important; /*ignores all other stylings*/
+  }
+
+  .index-boxlink-rectangle{
+    width: calc(50% - 20px) !important;
+  }
+
+
+  .index-links div h3{
+    line-height: 230px;
+  }
 
 
 }
+
 
 /*Footer*/
 footer{
@@ -303,5 +348,26 @@ footer ul li a{
 .footer-social img{
   width: 100%;
   margin-bottom: 10px;
+
+}
+
+/*footer desktop version coding*/
+@media only screen and (min-width: 1000px) {
+  .footer-links-cases{
+    display: block;
+  }
+
+  footer ul{
+    padding-right: 30px
+  }
+
+
+  footer ul li p{
+    font-family: Catamaran;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+  }
 
 }
